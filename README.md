@@ -1,5 +1,5 @@
 # :snake: Python Programs :snake:
- > A list of python projects created while learning the language as it relates to ethical hacking and cyber security. Most tools work as is, some need to be converted to python3 and there is a full TODO list as well for each one
+ > A list of python projects created while learning the language as it relates to ethical hacking and cyber security. Most tools work as is, some need to be converted to python3 and there is a full TODO list as well for each one. This list is not conclusive nor complete, and more projects will be added as I get them completed and operational.
 ---
 ## Contents
 - [Python DNS Spoofer](#dns-spoofer)
@@ -40,7 +40,7 @@ Supported doc types
 
 simple_mac_changer usage:  
 `python3 simple_mac_changer.py <interface> <MAC>`  
-- user provides interface and what MAC to set manually, gets the job done -- no input validation  
+- user provides interface and what MAC to set manually *no input validation*  
 
 mac_changer usage:  
 `python3 mac_changer.py -i interface`

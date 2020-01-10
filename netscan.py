@@ -1,6 +1,6 @@
 # Author: Mystik Developed
 #
-# Date: 12/28/2019 
+# Date: 1/2/2019 
 #
 # Program: Mystik Developed netscan.py
 #
@@ -11,9 +11,6 @@
 # and locate any hosts on the network - returning
 # the values in a table displaying IP and MAC
 # address of any host found on the network
-#
-# Current WIP - add port scan functionality to the 
-# hosts_list list found via scapy arp request
 #
 #!/usr/bin/env python
 

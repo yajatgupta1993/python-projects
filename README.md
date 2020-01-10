@@ -11,6 +11,7 @@
 - [Webpage Spider](#web-spider)
 - [TODOs](#todo)
 
+---
 <a name="dns-spoofer"></a>
 ### Python DNS Spoofer
 
@@ -19,6 +20,7 @@ Simple python program to spoof DNS
 Usage:
 `python dns_spoof.py`
 
+---
 <a name="interceptor"></a>
 ### MITM File Interceptor
 
@@ -28,7 +30,7 @@ Usage:
   
 Supported doc types
 * .exe  
-
+---
 <a name="mac-changer"></a>
 ### MAC Address Changers
 
@@ -41,6 +43,7 @@ mac_changer
 * generates random hex MAC value
 * more verbosity on process
 
+---
 <a name="net-scanner"></a>
 ### Network Scanner
 
@@ -53,12 +56,13 @@ Will return Responding IP and MAC Address of the scanned network range
 Notes: 
 Initial backbone for incorporating portscan.py but still early WIP
 
-
+---
 <a name="port-scanner"></a>
 ### Port Scanner
 
-python portscan.py <ip>
+`python portscan.py <ip>`
 
+---
 <a name="login-cracker"></a>
 ### Python WebApp Login Cracker
 
@@ -74,7 +78,7 @@ The output will only generate if a password is found for the supplied username -
 If no password is found to match the username supplied  
 `[-] End of file reached - no password found`  
 
-
+---
 <a name="web-spider"></a>
 ### Python Webpage Spider
 
@@ -93,8 +97,9 @@ http://10.10.20.131/mutillidae/
 http://10.10.20.131/dvwa/
 http://10.10.20.131/dav/
 ```
+---
 <a name="todo"></a> 
-### TODO:
+## TODOs:
 
 - File Interceptor
     - Planned doc types
@@ -105,7 +110,7 @@ http://10.10.20.131/dav/
         * .xls
         * .xlsx
         * .csv
-        
+
 - Network Scanner
     - obtain host info
     - add port scanning

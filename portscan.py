@@ -2,10 +2,6 @@
 #
 # Date: 12/28/2019 
 #
-# Program: Mystik Developed portscan.py
-#
-# Language: python
-#
 # Functionality: This python script is a simple
 # port scanner for a provided host IP address arg
 # It's functionality is limited but was to give

@@ -22,8 +22,12 @@ Usage:
 
 ---
 <a name="interceptor"></a>
-### MITM File Interceptor
+### MITM File Download Interceptor
 
+Usage:  
+`python3 dl_intercept.py`
+
+Works via the following steps:  
 1. Monitor network traffic for seq/ack transmit data across HTTP traffic
 2. If found, check raw packet for common document file types
 3. If found, modify raw load to redirect victim to malicious site & download
@@ -50,11 +54,7 @@ mac_changer usage:
 Usage:  
 `python3 netscan.py -t ip/subnet`
 
-Results:  
 Will return Responding IP and MAC Address of the scanned network range
-
-Notes:  
-Initial backbone for incorporating portscan.py but still early WIP
 
 ---
 <a name="port-scanner"></a>
@@ -73,8 +73,7 @@ A simple login page cracker using a supplied username and wordlist file for pass
 
 Usage:  
 `python login_cracker.py -t TARGET -u USER -w WORDLIST`
-
-Results:  
+  
 The output will only generate if a password is found for the supplied username *does not verbose all attempted passwords*  
 `[+] Login found --> password`  
   
@@ -89,8 +88,7 @@ A simple python script to crawl a website and output all URLs located
 
 Usage:  
 `python web_spider.py -t TARGET`
-
-Results:  
+ 
 The output will generate all links located on the target site *example below is IP of metasplotable*  
 ```
 python main.py -t http://10.10.20.131/
@@ -104,28 +102,32 @@ http://10.10.20.131/dav/
 <a name="todo"></a> 
 ## TODOs:
 
+- Update to python3 needed
+    - DNS Spoofer
+    - Port Scanner
+    - WebApp Login Cracker
+    - Web Spider
+
 - File Interceptor
     - Planned doc types
-        * .exe
         * .pdf
-        * .doc
-        * .docx
-        * .xls
-        * .xlsx
+        * .doc / .docx
+        * .xls / .xlsx        
         * .csv
+        * *others*
 
 - Network Scanner
-    - obtain host info
-    - add port scanning
-    - potentially add execution for simple exploit checks (anon FTP, SSH enum, SMB mapping, rpcclient, etc)
+    - Obtain host info
+    - Add port scanning within the script
+    - Obtain port service informaiton like nmap once included
+    - Add execution for simple exploit checks (anon FTP, SSH enum, SMB mapping, rpcclient, etc)
 
 - Login Cracker
-    - Modify to accept username file like password wordlist
+    - Argument to accept username file
     - Try all options with supplied user/pass files not locating first successful login
     - Support for : separated files (user:pass)
 
 - Web Spider
-    - Modify urlparse to urllib for python3 support
     - Get recursive working to click-thru and pull all links that can be located
     - Output in a cleaner format
     - Highligh of import URLs found (e.g. login, admin, etc.)

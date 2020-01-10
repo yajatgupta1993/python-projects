@@ -2,8 +2,6 @@
 #
 # Date: 1/3/2019 
 #
-# Language: Python
-#
 # Scan a target website
 #
 #!/usr/bin/env python

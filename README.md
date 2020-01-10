@@ -17,7 +17,7 @@
 
 Simple python program to spoof DNS
 
-Usage:
+Usage:  
 `python dns_spoof.py`
 
 ---
@@ -34,11 +34,11 @@ Supported doc types
 <a name="mac-changer"></a>
 ### MAC Address Changers
 
-simple_mac_changer 
+simple_mac_changer usage:  
 `python3 simple_mac_changer.py`  
-user provides interface and what MAC to set manually, gets the job done -- no input validation  
+- user provides interface and what MAC to set manually, gets the job done -- no input validation  
 
-mac_changer
+mac_changer usage:  
 `python3 mac_changer.py -i interface`
 * generates random hex MAC value
 * more verbosity on process
@@ -47,35 +47,37 @@ mac_changer
 <a name="net-scanner"></a>
 ### Network Scanner
 
-python3 netscan.py -t ip/subnet  
-e.g. `python3 netscan.py -t 10.0.20.1/24`
+Usage:
+`python3 netscan.py -t ip/subnet`
 
-Results:
+Results:  
 Will return Responding IP and MAC Address of the scanned network range
 
-Notes: 
+Notes:  
 Initial backbone for incorporating portscan.py but still early WIP
 
 ---
 <a name="port-scanner"></a>
 ### Port Scanner
 
+Usage:  
 `python portscan.py <ip>`
 
+Scans the top 1000 ports and returns ports found open
 ---
 <a name="login-cracker"></a>
 ### Python WebApp Login Cracker
 
 A simple login page cracker using a supplied username and wordlist file for passwords.  
 
-Usage:
+Usage:  
 `python login_cracker.py -t TARGET -u USER -w WORDLIST`
 
-Results:
-The output will only generate if a password is found for the supplied username -- does not verbose all attempted passwords
+Results:  
+The output will only generate if a password is found for the supplied username -- does not verbose all attempted passwords  
 `[+] Login found --> password`  
   
-If no password is found to match the username supplied  
+If no password is found to match the username supplied    
 `[-] End of file reached - no password found`  
 
 ---
@@ -84,10 +86,10 @@ If no password is found to match the username supplied
 
 A simple python script to crawl a website and output all URLs located
 
-Usage:
+Usage:  
 `python web_spider.py -t TARGET`
 
-Results:
+Results:  
 The output will generate all links located on the target site -- example below is IP of metasplotable  
 ```
 python main.py -t http://10.10.20.131/

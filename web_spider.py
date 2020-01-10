@@ -2,8 +2,6 @@
 #
 # Date: 1/3/2019 
 #
-# Program: Mystik Developed web_spider.py
-#
 # Language: Python
 #
 # Scan a target website

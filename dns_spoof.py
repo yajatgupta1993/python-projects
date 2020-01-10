@@ -2,10 +2,6 @@
 #
 # Date: 12/30/2019 
 #
-# Program: Mystik Developed dns_spoof.py
-#
-# Language: Python
-#
 # Note: create iptable before run
 #
 #!/usr/bin/env python

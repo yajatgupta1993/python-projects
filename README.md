@@ -132,4 +132,5 @@ http://10.10.20.131/dav/
     - Output in a cleaner format
     - Highligh of import URLs found (e.g. login, admin, etc.)
     - Incorporate into a vuln scanner script using lists of important URLs found
+    - Commented code within script to incorporate scanning for subdomains still needs to be worked out (e.g. subdomain.domain.com)
 

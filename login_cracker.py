@@ -1,10 +1,6 @@
 # Author: Mystik Developed
 #
-# Date: 12/28/2019 
-#
-# Program: Mystik Developed login_cracker.py
-#
-# Language: Python 
+# Date: 12/28/2019  
 #
 # Currently accepts single username input and password file
 #

@@ -1,3 +1,13 @@
+# Author: Mystik Developed
+#
+# Date: 1/3/2019 
+#
+# Program: Mystik Developed web_spider.py
+#
+# Language: Python
+#
+# Scan a target website
+#
 #!/usr/bin/env python
 
 #reqs
@@ -29,8 +39,8 @@ def getArgs():
     # verify arguments
     if not options.target:
         parser.error("[-] No URL provided. See --help for more info")
-    # elif not options.wordlist:
-    #     parser.error("[-] No wordlist provided. See --help for more info")
+    elif not options.wordlist:
+        parser.error("[-] No wordlist provided. See --help for more info")
     else:
         return options
 

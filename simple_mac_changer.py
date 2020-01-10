@@ -2,10 +2,6 @@
 #
 # Date: 1/4/2019 
 #
-# Program: Mystik Developed mac_changer.py
-#
-# Language: python
-#
 # Functionality: This python script is used to
 # edit a network interface MAC address with a 
 # user supplied interface and MAC address

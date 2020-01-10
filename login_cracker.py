@@ -1,6 +1,12 @@
+# Author: Mystik Developed
+#
+# Date: 12/28/2019 
+#
+# Program: Mystik Developed login_cracker.py
+#
+# Language: Python 
+#
 # Currently accepts single username input and password file
-# TODO: create username file reading to test username line with password file logging output
-# also include an option for user:pass files separated by ':'
 #
 #!/usr/bin/env python
 

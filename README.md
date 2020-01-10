@@ -35,7 +35,7 @@ Supported doc types
 ### MAC Address Changers
 
 simple_mac_changer usage:  
-`python3 simple_mac_changer.py`  
+`python3 simple_mac_changer.py <interface> <MAC>`  
 - user provides interface and what MAC to set manually, gets the job done -- no input validation  
 
 mac_changer usage:  
@@ -47,7 +47,7 @@ mac_changer usage:
 <a name="net-scanner"></a>
 ### Network Scanner
 
-Usage:
+Usage:  
 `python3 netscan.py -t ip/subnet`
 
 Results:  
@@ -64,6 +64,7 @@ Usage:
 `python portscan.py <ip>`
 
 Scans the top 1000 ports and returns ports found open
+
 ---
 <a name="login-cracker"></a>
 ### Python WebApp Login Cracker
@@ -74,10 +75,10 @@ Usage:
 `python login_cracker.py -t TARGET -u USER -w WORDLIST`
 
 Results:  
-The output will only generate if a password is found for the supplied username -- does not verbose all attempted passwords  
+The output will only generate if a password is found for the supplied username *does not verbose all attempted passwords*  
 `[+] Login found --> password`  
   
-If no password is found to match the username supplied    
+If no password is found to match the username supplied:    
 `[-] End of file reached - no password found`  
 
 ---
@@ -90,7 +91,7 @@ Usage:
 `python web_spider.py -t TARGET`
 
 Results:  
-The output will generate all links located on the target site -- example below is IP of metasplotable  
+The output will generate all links located on the target site *example below is IP of metasplotable*  
 ```
 python main.py -t http://10.10.20.131/
 http://10.10.20.131/twiki/

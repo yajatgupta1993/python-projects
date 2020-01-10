@@ -2,10 +2,6 @@
 #
 # Date: 12/28/2019 
 #
-# Program: Mystik Developed dl_intercept.py
-#
-# Language: Python
-#
 # Functionality: This python script is used to
 # intercept HTTP requests for downloads and
 # redirect victim machine to malicious file. 

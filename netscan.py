@@ -2,10 +2,6 @@
 #
 # Date: 1/2/2019 
 #
-# Program: Mystik Developed netscan.py
-#
-# Language: python
-#
 # Functionality: This python script is used to
 # scan a network for a given IP range and subnet
 # and locate any hosts on the network - returning

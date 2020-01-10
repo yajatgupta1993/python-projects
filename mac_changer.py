@@ -9,7 +9,7 @@
 # Functionality: This python script is used to
 # generate a random mac address for a given interface
 # supplied by the user and change the mac address
-
+#
 #!/usr/bin/env python
 
 #Requirements
